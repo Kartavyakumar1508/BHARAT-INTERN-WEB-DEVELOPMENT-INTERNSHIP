@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Homepage</title>
+  <style>
+    /* CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Main styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav {
+      list-style-type: none;
+      display: flex;
+    }
+
+    .nav li {
+      margin-left: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 24px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: red;
+      color: #fff;
+      padding: 10px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .feature {
+      flex-basis: 30%;
+      text-align: center;
+    }
+
+    .footer {
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="logo">Netflix</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Unlimited movies, TV shows, and more.</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+    </section>
+
+    <div class="cta">
+      <a href="#">Try it now</a>
+    </div>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Watch on your TV</h3>
+        <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+      </div>
+      <div class="feature">
+        <h3>Watch instantly or download for later</h3>
+        <p>Available on phone and tablet, wherever you go.</p>
+      </div>
+      <div class="feature">
+        <h3>Use any computer</h3>
+        <
