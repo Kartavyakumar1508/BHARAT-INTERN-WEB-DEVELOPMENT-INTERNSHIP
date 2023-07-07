@@ -1,1 +1,203 @@
+HTML CODE :-
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width,
+
+initial-scale=1.0">
+
+<title>Temperature Converter</title>
+
+<link rel="stylesheet" href="atyle.css">
+
+</head>
+
+<body>
+
+<!--header -->
+
+<div class="header">
+
+<h1>Temperature Converter</h1>
+
+</div>
+
+<!-- Converter box -->
+
+<div class="w-box">
+
+<div class="container">
+
+<label for="celsius">Celsius</label>
+
+<input type="number" id="celsius"
+
+oninput="celToFar()">
+
+</div>
+
+<div class="container">
+
+<label for="fahrenheit">Fahrenheit</label>
+
+<input type "number" id="fahrenheit"
+
+oninput="FarTocel ()">
+
+</div>
+
+</div>
+
+<!-- Javascript -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+CSS CODE-
+
+*:before,
+
+*:after{
+
+padding: 0;
+
+margin: 0;
+
+box-sizing: border-box;
+
+font-size: 18px;
+
+body
+
+background-color: blue;
+
+/background: url("") no-repeat cover: "/
+
+background-image: url("./Untitled design\
+
+\(4\).jpg");
+
+background-repeat: no-repeat;
+
+background-size: cover; 
+
+
+
+}
+
+
+
+h1{
+color: white;
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 50px;
+
+letter-spacing: 1px;
+
+padding: 20px 50px;
+
+w-box{
+
+width: 450px;
+
+background-color: white;
+
+padding: 70px 40px;
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate (-50%, -50%); box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+
+border-radius: 8px;
+
+display: flex;
+
+justify-content: space-between;
+
+.container(
+
+width: 45%;
+
+input (
+
+width: 100%;
+
+height: 50px;
+
+border-radius: 3px;
+
+border: 2px solid #d2d2d2;
+
+outline: none;
+
+margin-top: 8px;
+
+padding: 0 10px;
+
+ Input:focus
+
+background-color: rgb(234, 234, 234);
+
+.copyright(
+
+position: absolute;
+
+color: white;
+
+bottom: 3%;
+
+font-family: Arial, Helvetica, sans-serif;
+
+text-align: center;
+
+left: 36.5%;
+
+.copyright af
+
+color: black;
+
+JAVASCRIPT CODE:-
+
+Let
+
+celsius=document.getElementById("celsius")
+
+fahrenheit=document.getElementById("Fahre nheit");
+
+function celToPar() {
+let output=( parseFloat (celsius.value) *9/5) + 32;
+
+fahrenheit.value-parseFloat (output.toFixe d(2));
+
+function FarTocel() {
+
+let
+
+output (parseFloat (fahrenheit.value)-32)
+
+*5/9;
+
+celsius.value=parseFloat (output.toFixed(2
+
+));
+
+console.log(output);
+
+}
